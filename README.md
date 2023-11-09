@@ -1,3 +1,3 @@
 # rsschool-cv
 
-# Link
+# https://tokhirboiskhonov.github.io/rsschool-cv/cv
