@@ -1,0 +1,480 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Header Logo styling */
+.header__logo {
+  font-size: 32px;
+  line-height: normal;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* Navigation Menu styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+/* Remove margin for the last navigation item */
+nav ul li:last-child {
+  margin: 0;
+}
+
+/* Navigation link styling */
+nav ul li a {
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling for personal photo (if exists) */
+.personal__photo {
+  border-radius: 60%;
+  -webkit-border-radius: 60%;
+  -moz-border-radius: 60%;
+  -ms-border-radius: 60%;
+  -o-border-radius: 60%;
+}
+
+/* Styling for the hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0;
+  /* text-align: center; */
+}
+
+/* Hero description styling */
+.hero__description {
+  width: 600px;
+  margin-left: 10px;
+}
+
+/* Hero title styling */
+.hero__description h1 {
+  font-size: 100px;
+}
+
+/* Hero paragraph styling */
+.hero__description h5 {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.hero__description p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for the hero action buttons */
+.hero__wrapper--resume {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  padding: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.hero__wrapper--projects {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  padding: 50px;
+  background-color: red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+
+.hero__wrapper--contact {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  padding: 50px;
+  background-color: darkcyan;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* Styling for hover effect on hero action buttons */
+.hero__wrapper--resume:hover,
+.hero__wrapper--projects:hover,
+.hero__wrapper--contact:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Styling for the resume section title */
+.resume__title {
+  font-size: 48px;
+  font-style: oblique;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+/* Styling for the first section of the resume */
+.resume__wrapper-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+/* Styling for education section in the resume */
+.resume__education {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* Styling for elements within the resume section */
+.resume__inner {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+/* Styling for resume inner elements' paragraphs */
+.resume__inner p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for some spacing between resume inner elements */
+.resume__inner div {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+/* Styling for the second and third sections of the resume */
+.resume__wrapper-2,
+.resume__wrapper-3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.resume__skills {
+  width: 125px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.resume__inner ul {
+  width: 425px;
+  list-style-type: none;
+}
+
+.resume__course {
+  width: 125px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* Styling for course list */
+.course__list {
+  list-style-type: none;
+}
+
+.course__item {
+  color: darkcyan;
+}
+
+.course__item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.course__item a:hover {
+  color: gray;
+}
+
+.course__item a:active {
+  color: red;
+}
+
+/* Contact section styling */
+.contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact__mid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact__information {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 12px;
+}
+
+.contact__information h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 450px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.contact__form input {
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  background-color: rgba(180, 0, 17, 0.1);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact__form textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  background-color: rgba(180, 0, 17, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact__form button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #990011 !important;
+  padding: 16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact__information ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.contact__information ul li {
+  padding: 34px 20px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact__information ul li:hover {
+  color: white;
+  background-color: #990011;
+}
+
+.contact__social__links {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__information ul li h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.contact__social__links {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Montserrat";
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.contact__information ul li p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.personal__github {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Styling for the follow me section */
+.follow__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.follow__section h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.follow__section div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Footer styling */
+.footer {
+  margin: 0;
+  padding: 20px;
+  background-color: #333;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__item {
+  padding: 10px;
+}
+
+.footer__item p {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footer__item a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
