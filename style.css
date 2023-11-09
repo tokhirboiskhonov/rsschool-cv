@@ -1,0 +1,198 @@
+/* Basic styling */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000;
+
+  background-color: #f2f3f4;
+}
+
+img {
+  display: block;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Container style */
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main style */
+
+.markdown__header {
+  margin-top: 30px;
+}
+
+.rsschool__link {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: darkcyan;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.profile__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 1px solid black;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.profile__position {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 15px;
+  border-bottom: 5px solid darkgray;
+  cursor: pointer;
+  line-height: normal;
+}
+
+.markdown__header h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  line-height: normal;
+  border-bottom: 1px solid black;
+}
+
+.markdown__header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.markdown__header ul li {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown__header ul li p {
+  margin: 0;
+  padding: 0;
+}
+
+.personal__contact ul,
+.personal__about p,
+.personal__skills ul,
+.personal__education ul {
+  margin-left: 20px;
+}
+
+.personal__github,
+.personal__linkedIn {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.personal__skills ul li p {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  line-height: normal;
+}
+
+.personal__contact,
+.personal__about,
+.personal__skills,
+.code__example,
+.personal__education,
+.english__level {
+  margin-bottom: 20px;
+}
+
+.code__example p {
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.code__example code {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.personal__education ul li p {
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.dropdown__courseList {
+  color: darkcyan;
+}
+
+.dropdown__item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.dropdown__item a:hover {
+  color: gray;
+}
+
+.dropdown__item a:active {
+  color: red;
+}
