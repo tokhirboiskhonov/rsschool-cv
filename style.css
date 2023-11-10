@@ -1,4 +1,3 @@
-/* Basic styling */
 html {
   height: 100%;
   box-sizing: border-box;
@@ -36,7 +35,6 @@ body {
   font-weight: 400;
   line-height: 16px;
   color: #000;
-
   background-color: #f2f3f4;
 }
 
@@ -48,16 +46,12 @@ main {
   flex-grow: 1;
 }
 
-/* Container style */
-
 .container {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
-
-/* Main style */
 
 .markdown__header {
   margin-top: 30px;
